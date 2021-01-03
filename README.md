@@ -1,18 +1,11 @@
 # upphub
 Collection of U++ assemblies and packages by Seppo Pakonen.
 
+To use this, download sppp.root to your UppHub directory.
+
 ```
-{
-  "nests": [
-    { "name": "UppVotingOptimizer",
-      "packages": [ "VotingOptimizer" ],
-      "description": "Voting based system optimization",
-      "repository": "https://github.com/sppp/UppVotingOptimizer.git"
-    }
-  ],
-  "refs": [
-    "https://github.com/sppp"
-  ]
-}
+mkdir ~/upphub
+cd ~/upphub
+wget https://raw.githubusercontent.com/sppp/upphub/main/sppp.root
 ```
 
