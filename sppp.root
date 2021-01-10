@@ -1,11 +1,27 @@
 {
-  "nests": [
-    { "name": "UppVotingOptimizer",
-      "packages": [ "VotingOptimizer" ],
-      "description": "Voting based system optimization",
-      "repository": "https://github.com/sppp/UppVotingOptimizer.git"
+  "nests":
+  [
+    { "name": "UppAlt",
+      "packages": [ "CoreAlt" ],
+      "description": "An alternative implemention of a subset of the U++ framework.",
+      "repository": "https://github.com/sppp/UppAlt.git"
     }
   ],
+  [
+    { "name": "UppCommon",
+      "packages": [ "Sppp", "SpppCtrl", "Editor" ],
+      "description": "Common libraries for sppp's U++ projects.",
+      "repository": "https://github.com/sppp/UppCommon.git"
+    }
+  ],
+  [
+    { "name": "UppCompiler",
+      "packages": [ ],
+      "description": "Various packages related to compiling stuff.",
+      "repository": "https://github.com/sppp/UppCompiler.git"
+    }
+  ],
+  
   "refs": [
     "https://github.com/sppp"
   ]
